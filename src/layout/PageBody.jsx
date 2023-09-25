@@ -1,6 +1,6 @@
 import { Switch, Route } from "react-router-dom";
 import HomePage from "../pages/HomePage";
-import ProductList from "../pages/ProductList";
+import ProductListPage from "../pages/ProductList";
 
 const PageBody = () => {
   return (
@@ -9,7 +9,7 @@ const PageBody = () => {
         <HomePage />
       </Route>
       <Route path="/productList" exact>
-        <ProductList />
+        <ProductListPage />
       </Route>
     </Switch>
   );
