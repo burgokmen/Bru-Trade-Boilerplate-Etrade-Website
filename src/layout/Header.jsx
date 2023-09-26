@@ -1,10 +1,11 @@
-import HeaderTop from "../components/HeaderTop";
+import HeaderFoot from "../components/HeaderComponents/HeaderFoot";
+import HeaderTop from "../components/HeaderComponents/HeaderTop";
 
 const Header = () => {
   return (
     <header>
-      <HeaderTop></HeaderTop>
-      <div>Bandage</div>
+      <HeaderTop />
+      <HeaderFoot />
     </header>
   );
 };
