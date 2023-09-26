@@ -1,21 +1,21 @@
-import React from "react";
+import data from "../data/data";
 
 const HeaderTop = () => {
   return (
-    <React.Fragment>
-      <div className="px-[1.5rem] flex ">
+    <div className="bg-darkBlue text-white w-auto">
+      <div className="px-[1.5rem] flex justify-between">
         <div>
           <span>icon</span>
-          (225) 555-0118
+          {data.myStore.phoneNumber}
           <span>icon</span>
-          michelle.rivera@example.com
+          {data.myStore.email}
         </div>
-        <div>Follow Us and get a chance to win 80% off</div>
+        <div>{data.myStore.discountLetter}</div>
         <div>
-          Follow Us : <div>icons</div>
+          Follow Us : <span>icons</span>
         </div>
       </div>
-    </React.Fragment>
+    </div>
   );
 };
 
