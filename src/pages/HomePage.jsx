@@ -2,6 +2,7 @@ import BestSeller from "../components/BestSeller";
 import { CarouselCustomNavigation } from "../components/Carousel";
 import Editors from "../components/Editors";
 import XProduct from "../components/XProduct";
+import BlogPosts from "../components/BlogPosts";
 
 const HomePage = () => {
   return (
@@ -11,6 +12,7 @@ const HomePage = () => {
       <BestSeller />
       <div>{CarouselCustomNavigation()}</div>
       <XProduct />
+      <BlogPosts />
     </div>
   );
 };
