@@ -10,9 +10,9 @@ const XProduct = () => {
         alt="nature image"
       />
       <div>
-        <h2 className="text-[1rem] text-[#BDBDBD] ">{data.carousel1.h2}</h2>
-        <h3 className="text-[40px] text-darkBlue">{data.carousel1.h3}</h3>
-        <h4 className="font-normal text-[20px] ">{data.carousel1.h4}</h4>
+        <h2 className="text-[1rem] text-[#BDBDBD] ">{data.xProduct.h2}</h2>
+        <h3 className="text-[40px] text-darkBlue">{data.xProduct.h3}</h3>
+        <h4 className="font-normal text-[20px] ">{data.xProduct.p}</h4>
         <Button className="g-[35px]" color="green">
           <span className="text-[14px]">BUY NOW</span>
         </Button>

@@ -18,6 +18,11 @@ const data = {
     h2: "BESTSELLER PRODUCTS",
     h3: "Problems trying to resolve the conflict between",
   },
+  xProduct: {
+    h2: "SUMMER 2020",
+    h3: "Part of the Neural Universe",
+    p: "We know how large objects will act, but things on a small scale.",
+  },
 };
 
 export default data;
