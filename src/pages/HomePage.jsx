@@ -1,9 +1,9 @@
-import Carousel from "../components/Carousel";
+import { CarouselCustomNavigation } from "../components/Carousel";
 
 const HomePage = () => {
   return (
     <div>
-      <Carousel />
+      <div>{CarouselCustomNavigation()}</div>
     </div>
   );
 };
