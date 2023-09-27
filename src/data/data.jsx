@@ -1,4 +1,5 @@
 const data = {
+  brand: { name: "Bru7" },
   myStore: {
     phoneNumber: "(510) 999 07 18",
     email: "brunogokmen@gmail.com",
