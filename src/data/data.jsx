@@ -9,6 +9,10 @@ const data = {
     h3: "NEW COLLECTION",
     h4: "We know how large objects will act, but things on a small scale.",
   },
+  editorsPick: {
+    h2: "EDITOR’S PICK",
+    h3: "Problems trying to resolve the conflict between",
+  },
 };
 
 export default data;
