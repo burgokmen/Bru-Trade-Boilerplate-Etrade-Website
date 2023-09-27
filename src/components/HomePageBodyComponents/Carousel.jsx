@@ -1,5 +1,5 @@
 import { Button, Carousel } from "@material-tailwind/react";
-import data from "../data/data";
+import data from "../../data/data";
 
 export function CarouselCustomNavigation() {
   return (

@@ -1,5 +1,5 @@
 import { Button } from "@material-tailwind/react";
-import data from "../data/data";
+import data from "../../data/data";
 
 const XProduct = () => {
   return (
