@@ -1,4 +1,5 @@
-import { Carousel } from "@material-tailwind/react";
+import { Button, Carousel } from "@material-tailwind/react";
+import data from "../data/data";
 
 export function CarouselCustomNavigation() {
   return (
@@ -25,11 +26,12 @@ export function CarouselCustomNavigation() {
           className="h-full w-full object-cover"
         />
         <div className="absolute text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
-          <h2 className="text-[1rem] ">SUMMER 2020</h2>
-          <h3 className="text-[58px]">NEW COLLECTION</h3>
-          <h4 className="font-normal text-[20px] ">
-            We know how large objects will act, but things on a small scale.
-          </h4>
+          <h2 className="text-[1rem] ">{data.carousel1.h2}</h2>
+          <h3 className="text-[58px]">{data.carousel1.h3}</h3>
+          <h4 className="font-normal text-[20px] ">{data.carousel1.h4}</h4>
+          <Button className="g-[35px]" color="green">
+            SHOP NOW
+          </Button>
         </div>
       </div>
       <img
