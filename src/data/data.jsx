@@ -23,6 +23,11 @@ const data = {
     h3: "Part of the Neural Universe",
     p: "We know how large objects will act, but things on a small scale.",
   },
+  blogPost: {
+    h4: "Practice Advice",
+    h2: "Featured Posts",
+    p: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
+  },
 };
 
 export default data;
