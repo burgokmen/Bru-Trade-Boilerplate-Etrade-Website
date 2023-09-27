@@ -13,6 +13,11 @@ const data = {
     h2: "EDITOR’S PICK",
     h3: "Problems trying to resolve the conflict between",
   },
+  bestSeller: {
+    h4: "Featured Products",
+    h2: "BESTSELLER PRODUCTS",
+    h3: "Problems trying to resolve the conflict between",
+  },
 };
 
 export default data;

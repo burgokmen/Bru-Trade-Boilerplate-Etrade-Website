@@ -3,7 +3,7 @@ import data from "../data/data";
 
 const Editors = () => {
   return (
-    <div>
+    <div className="p-[80px]">
       <div className="text-center">
         <h2 className="text-[24px] text-darkBlue">{data.editorsPick.h2}</h2>
         <h3 className="text-[14px] text-[#737373] font-normal">
