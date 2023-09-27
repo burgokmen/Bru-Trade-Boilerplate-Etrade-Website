@@ -9,7 +9,7 @@ const HeaderComplex = () => {
   const [cartItemCount, setCartItemCount] = useState(0);
   const [loveCount, setLoveCount] = useState(0);
   return (
-    <div className="text-[#23A6F0] flex">
+    <div className="text-babyBlue flex">
       <div className="flex">
         <img src={loginIcon} />
         <span>Login / Register</span>
