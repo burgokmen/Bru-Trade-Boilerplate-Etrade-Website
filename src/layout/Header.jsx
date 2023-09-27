@@ -1,5 +1,5 @@
-import HeaderFoot from "../components/HeaderComponents/HeaderFoot";
 import HeaderTop from "../components/HeaderComponents/HeaderTop";
+import HeaderFoot from "../components/HeaderComponents/HeaderFoot";
 
 const Header = () => {
   return (
