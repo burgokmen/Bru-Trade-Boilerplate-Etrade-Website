@@ -21,7 +21,11 @@ const data = {
     h2: "BESTSELLER PRODUCTS",
     h3: "Problems trying to resolve the conflict between",
     mapArr: {
-      pic: "",
+      pic: productExp,
+      h5: "Graphic Design",
+      h6: "English Department",
+      price: "$16.48",
+      priceDiscounted: "$6.48",
     },
   },
   xProduct: {
