@@ -29,6 +29,19 @@ const data = {
     h2: "Featured Posts",
     p: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
   },
+  footerArr: {
+    1: ["Company Info", "About Us", "Carrier", "We are hiring", "Blog"],
+    2: ["Legal", "About Us", "Carrier", "We are hiring", "Blog"],
+    3: [
+      "Features",
+      "Business Marketing",
+      "User Analytic",
+      "Live Chat",
+      "Unlimited Support",
+    ],
+    4: ["Resources", "IOS & Android", "Watch a Demo", "Customers", "API"],
+    5: ["Get In Touch", "Lore imp sum dolor Amit"],
+  },
 };
 
 export default data;
