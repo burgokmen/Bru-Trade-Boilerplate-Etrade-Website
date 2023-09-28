@@ -8,7 +8,7 @@ import data from "../../data/data";
 
 const HeaderTop = () => {
   return (
-    <div className="bg-darkBlue text-white h-10 text-[14px]">
+    <div className="bg-darkBlue text-white h-[58px] text-[14px]">
       <div className="px-[1.5rem] flex justify-between">
         <div className="flex ">
           <div className="flex p-[10px]">
@@ -24,7 +24,6 @@ const HeaderTop = () => {
         </div>
         <div className="p-[10px]">{data.myStore.discountLetter}</div>
         <div className="flex p-[10px]">
-          <span className="pe-2">Follow Us :</span>
           <img className="px-[10px]" src={instaIconSvg} alt="Phone" />
           <img className="px-[10px]" src={youtubeIconSvg} alt="Phone" />
           <img className="px-[10px]" src={faceIconSvg} alt="Phone" />
