@@ -1,5 +1,11 @@
+import ProductHeader from "../components/ProductListPageComponents/ProductHeader";
+
 const ProductListPage = () => {
-  return <div>ProductList</div>;
+  return (
+    <div>
+      <ProductHeader />
+    </div>
+  );
 };
 
 export default ProductListPage;
