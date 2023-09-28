@@ -1,7 +1,9 @@
+import { useHistory } from "react-router-dom";
 import { Button, Carousel } from "@material-tailwind/react";
 import data from "../../data/data";
 
 export function CarouselCustomNavigation() {
+  const history = useHistory();
   return (
     <Carousel
       className=""
@@ -29,7 +31,11 @@ export function CarouselCustomNavigation() {
           <h2 className="text-[1rem] ">{data.carousel1.h2}</h2>
           <h3 className="text-[58px]">{data.carousel1.h3}</h3>
           <h4 className="font-normal text-[20px] ">{data.carousel1.h4}</h4>
-          <Button className="g-[35px]" color="green">
+          <Button
+            onClick={() => history.push("/productList")}
+            className="g-[35px]"
+            color="green"
+          >
             SHOP NOW
           </Button>
         </div>
