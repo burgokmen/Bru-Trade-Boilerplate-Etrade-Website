@@ -52,6 +52,12 @@ const data = {
     5: ["Get In Touch", "Lore imp sum dolor Amit"],
   },
   copyright: "Made With Love By Bru All Right Reserved ",
+  productListPage: {
+    shopCategory: {
+      h3: "CLOTHS",
+      p: "5 Items",
+    },
+  },
 };
 
 export default data;
