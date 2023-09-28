@@ -1,3 +1,5 @@
+import productExp from "../assets/productPng/productExp.png";
+
 const data = {
   brand: { name: "Bru7" },
   myStore: {
@@ -18,6 +20,9 @@ const data = {
     h4: "Featured Products",
     h2: "BESTSELLER PRODUCTS",
     h3: "Problems trying to resolve the conflict between",
+    mapArr: {
+      pic: "",
+    },
   },
   xProduct: {
     h2: "SUMMER 2020",
