@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 
 const BestSeller = () => {
   return (
-    <div className="px-[240px]">
+    <div className="px-[195px]">
       <div className="text-center">
         <h4 className="text-[20px] text-[#737373] font-normal">
           {data.bestSeller.h4}
@@ -13,7 +13,7 @@ const BestSeller = () => {
           {data.bestSeller.h3}
         </h3>
       </div>
-      <div className="flex flex-wrap">
+      <div className="flex justify-between flex-wrap">
         <ProductCard />
         <ProductCard />
         <ProductCard />
