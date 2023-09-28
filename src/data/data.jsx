@@ -30,7 +30,7 @@ const data = {
     p: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
   },
   footerArr: {
-    h1: ["Company Info", "Legal", "Features", "Resources", "Get In Touch"],
+    h5: ["Company Info", "Legal", "Features", "Resources", "Get In Touch"],
     1: ["About Us", "Carrier", "We are hiring", "Blog"],
     2: ["About Us", "Carrier", "We are hiring", "Blog"],
     3: [
