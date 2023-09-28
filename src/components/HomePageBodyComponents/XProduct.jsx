@@ -18,7 +18,7 @@ const XProduct = () => {
           {data.xProduct.p}
         </h4>
         <div>
-          <Button className="g-[35px]" color="green">
+          <Button className="mr-[10px]" color="green">
             <span className="text-[14px]">BUY NOW</span>
           </Button>
           <Button variant="outlined" className="g-[35px]" color="green">
