@@ -42,6 +42,7 @@ const data = {
     4: ["Resources", "IOS & Android", "Watch a Demo", "Customers", "API"],
     5: ["Get In Touch", "Lore imp sum dolor Amit"],
   },
+  copyright: "Made With Love By Finland All Right Reserved ",
 };
 
 export default data;
