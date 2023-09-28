@@ -30,19 +30,19 @@ const data = {
     p: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
   },
   footerArr: {
-    1: ["Company Info", "About Us", "Carrier", "We are hiring", "Blog"],
-    2: ["Legal", "About Us", "Carrier", "We are hiring", "Blog"],
+    h1: ["Company Info", "Legal", "Features", "Resources", "Get In Touch"],
+    1: ["About Us", "Carrier", "We are hiring", "Blog"],
+    2: ["About Us", "Carrier", "We are hiring", "Blog"],
     3: [
-      "Features",
       "Business Marketing",
       "User Analytic",
       "Live Chat",
       "Unlimited Support",
     ],
-    4: ["Resources", "IOS & Android", "Watch a Demo", "Customers", "API"],
-    5: ["Get In Touch", "Lore imp sum dolor Amit"],
+    4: ["IOS & Android", "Watch a Demo", "Customers", "API"],
+    5: ["Lore imp sum dolor Amit"],
   },
-  copyright: "Made With Love By Finland All Right Reserved ",
+  copyright: "Made With Love By Bru All Right Reserved ",
 };
 
 export default data;
