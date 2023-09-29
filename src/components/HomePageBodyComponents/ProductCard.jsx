@@ -2,7 +2,10 @@ import data from "../../data/data";
 
 const ProductCard = () => {
   return (
-    <div className="py-[80px] pr-[30px] w-[239px] h-[615px] text-center">
+    <div
+      onClick={() => {}}
+      className="py-[80px] pr-[30px] w-[239px] h-[615px] text-center"
+    >
       <img className="w-[239px] h-[427px]" src={data.bestSeller.mapArr.pic} />
       <h5 className="text-darkBlue">{data.bestSeller.mapArr.h5}</h5>
       <h6 className="text-[14px] text-[#737373]">

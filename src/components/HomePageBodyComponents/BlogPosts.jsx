@@ -13,9 +13,11 @@ const BlogPosts = () => {
           {data.blogPost.p}
         </p>
       </div>
-      <div>//TODO maplenecek blog postlar</div>
+      <div></div>
     </div>
   );
 };
 
 export default BlogPosts;
+
+//TODO maplenecek blog postlar

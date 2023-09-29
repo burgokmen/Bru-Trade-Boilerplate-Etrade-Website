@@ -1,4 +1,5 @@
 import ProductCard from "../components/HomePageBodyComponents/ProductCard";
+import Pagination from "../components/ProductListPageComponents/Pagination";
 import ProductHeader from "../components/ProductListPageComponents/ProductHeader";
 import ShopCategory from "../components/ProductListPageComponents/ShopCategory";
 import ShopFilter from "../components/ProductListPageComponents/ShopFilter";
@@ -20,6 +21,7 @@ const ProductListPage = () => {
         <ProductCard />
         <ProductCard />
       </div>
+      <Pagination />
     </div>
   );
 };
