@@ -10,7 +10,7 @@ const NavBar = () => {
           <Link to="/"> Home </Link>
         </li>
         <li className="flex pr-5">
-          <Link to="/productsList"> Shop </Link>
+          <Link to="/productList"> Shop </Link>
           <img className="pl-2" src={dropDownIcon} />
         </li>
         <li className="pr-5">
