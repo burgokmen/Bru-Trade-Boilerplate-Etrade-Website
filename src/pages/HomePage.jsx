@@ -6,14 +6,14 @@ import BlogPosts from "../components/HomePageBodyComponents/BlogPosts";
 
 const HomePage = () => {
   return (
-    <div>
-      <div>{CarouselCustomNavigation()}</div>
+    <>
+      <>{CarouselCustomNavigation()}</>
       <Editors />
       <BestSeller />
-      <div>{CarouselCustomNavigation()}</div>
+      <>{CarouselCustomNavigation()}</>
       <XProduct />
       <BlogPosts />
-    </div>
+    </>
   );
 };
 
