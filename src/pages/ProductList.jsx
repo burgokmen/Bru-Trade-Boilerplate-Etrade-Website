@@ -6,7 +6,7 @@ import ShopFilter from "../components/ProductListPageComponents/ShopFilter";
 
 const ProductListPage = () => {
   return (
-    <div>
+    <>
       <ProductHeader />
       <ShopCategory />
       <ShopFilter />
@@ -22,7 +22,7 @@ const ProductListPage = () => {
         <ProductCard />
       </div>
       <Pagination />
-    </div>
+    </>
   );
 };
 

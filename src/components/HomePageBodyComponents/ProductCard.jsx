@@ -1,10 +1,12 @@
+import { useHistory } from "react-router-dom";
 import data from "../../data/data";
 
 const ProductCard = () => {
+  const history = useHistory();
   return (
     <div
-      onClick={() => {}}
-      className="py-[80px] pr-[30px] w-[239px] h-[615px] text-center"
+      onClick={() => history.push("/product")}
+      className="py-[80px] pr-[30px] w-[239px] h-[615px] text-center cursor-pointer"
     >
       <img className="w-[239px] h-[427px]" src={data.bestSeller.mapArr.pic} />
       <h5 className="text-darkBlue">{data.bestSeller.mapArr.h5}</h5>
