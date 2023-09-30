@@ -58,6 +58,17 @@ const data = {
       p: "5 Items",
     },
   },
+  aProduct: {
+    h2: "Floating Phone",
+    review: "10 reviews",
+    price: "$1,139.33",
+    availability: "Availability  :",
+isStock:"In Stock ",
+p: "Met minim Mollie non desert Alamo est sit cliquey dolor 
+do met sent. RELIT official consequent door ENIM RELIT Mollie. 
+Excitation venial consequent sent nostrum met.",
+
+  }
 };
 
 export default data;
