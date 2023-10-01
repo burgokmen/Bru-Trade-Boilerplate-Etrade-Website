@@ -65,6 +65,11 @@ const data = {
     availability: "Availability  :",
     isStock: "In Stock ",
     p: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie.Excitation venial consequent sent nostrum met.",
+    menu: {
+      description: "Description",
+      extraInfo: "Additional Information",
+      review: "Reviews",
+    },
   },
 };
 
