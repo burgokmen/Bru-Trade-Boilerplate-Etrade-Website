@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
-import { Button, Rating } from "@material-tailwind/react";
-import smallProduct from "../../assets/aProduct/single-product-small.jpg";
-import ProductJpg from "../../assets/aProduct/singleProduct.jpg";
+import { Button, IconButton, Rating } from "@material-tailwind/react";
+
 import data from "../../data/data";
 
 import ProductCarousel from "./ProductCarousel";
@@ -23,13 +22,8 @@ const ProductDescription = () => {
         <h4 className="text-[14px] text-[#BDBDBD]">Shop</h4>
       </div>
       <div className="flex flex-wrap gap-8">
-        <div className="w-[506px] h-[450px]">
-          <ProductCarousel />
-          <div className="flex py-[21px]">
-            <img className="w-[100px] h-[75px] pr-[19px]" src={smallProduct} />
-            <img className="w-[100px] h-[75px]" src={ProductJpg} />
-          </div>
-        </div>
+        <ProductCarousel />
+
         <div>
           <div className="w-[506px] h-[450px] flex flex-col gap-3">
             <h2 className="text-darkBlue text-[20px] font-normal">
@@ -68,8 +62,15 @@ const ProductDescription = () => {
               <i className=" fa fa-circle text-[#252B42]"></i>
             </div>
           </div>
-          <div>
+
+          <div className="flex gap-4">
             <Button color="blue">Select Options</Button>
+            <IconButton variant="outlined" className="rounded-full">
+              <i className="fa fa-heart" />
+            </IconButton>
+            <IconButton variant="outlined" className="rounded-full">
+              <i className="fa-solid fa-cart-shopping" />
+            </IconButton>
           </div>
         </div>
       </div>
