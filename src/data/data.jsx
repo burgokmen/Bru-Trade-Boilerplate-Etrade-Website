@@ -69,6 +69,11 @@ const data = {
       description: "Description",
       extraInfo: "Additional Information",
       review: "Reviews",
+      h4: "the quick fox jumps over ",
+      p1: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+      p2: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+      p3: "Met minim Mollie non desert Alamo est sit cliquey dolor do met sent. RELIT official consequent door ENIM RELIT Mollie. Excitation venial consequent sent nostrum met.",
+      hp: "the quick fox jumps over the lazy dog",
     },
   },
 };
