@@ -16,6 +16,7 @@ module.exports = withMT({
       colors: {
         darkBlue: "#252B42",
         babyBlue: "#23A6F0",
+        grey73: "#737373",
       },
     },
     plugins: [],
