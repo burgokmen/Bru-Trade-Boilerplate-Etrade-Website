@@ -77,7 +77,7 @@ const data = {
     },
   },
   pricing: {
-    h3: "Pricing",
+    h3: "PRICING",
     h2: "Simple Pricing",
     p: "Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics",
     monthly: "Monthly",
