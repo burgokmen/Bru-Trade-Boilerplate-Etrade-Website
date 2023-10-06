@@ -11,7 +11,7 @@ const ProductBlog = () => {
     );
   }
   return (
-    <>
+    <div className="py-[60px]">
       <div className="flex justify-center gap-8 py-[40px]">
         <h3 className="text-grey73 text-[14px]">
           {data.aProduct.blog.description}
@@ -54,7 +54,7 @@ const ProductBlog = () => {
           {blogPostmaker()}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
