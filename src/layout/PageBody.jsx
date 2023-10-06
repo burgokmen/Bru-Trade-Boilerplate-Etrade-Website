@@ -2,6 +2,7 @@ import { Switch, Route } from "react-router-dom";
 import HomePage from "../pages/HomePage";
 import ProductListPage from "../pages/ProductList";
 import ProductPage from "../pages/ProductPage";
+import PricingPage from "../pages/PricingPage";
 
 const PageBody = () => {
   return (
@@ -14,6 +15,9 @@ const PageBody = () => {
       </Route>
       <Route path="/product" exact>
         <ProductPage />
+      </Route>
+      <Route path="/pricing" exact>
+        <PricingPage />
       </Route>
     </Switch>
   );
