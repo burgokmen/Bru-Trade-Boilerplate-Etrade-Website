@@ -13,7 +13,7 @@ const PricingComp = () => {
             <p className="text-sm text-gray-400">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s,
+              ever since the 1500
             </p>
           </div>
           <button className="w-full mt-6 mb-3 py-2 text-white font-semibold bg-gray-700 hover:shadow-xl duration-200 hover:bg-gray-800">
