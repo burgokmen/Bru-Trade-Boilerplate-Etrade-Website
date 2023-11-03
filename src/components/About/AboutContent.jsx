@@ -12,7 +12,7 @@ const AboutContent = () => {
       <div className="sm:w-[520px] w-[300px] m-auto">
         <p className="text-[#737373] font-normal text-sm">
           Problems trying to resolve the conflict between the two major realms
-          of Classical physics: Newtonian mechanics{" "}
+          of Classical physics: Newtonian mechanics
         </p>
       </div>
     </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import demo from "../../Assets/about/demo.mp4";
 
 export const AboutVideo = () => {
