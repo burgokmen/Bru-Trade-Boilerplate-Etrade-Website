@@ -1,4 +1,4 @@
-import about from "../../Assets/about/technology.png";
+// import about from "../../Assets/about/technology.png";
 import { Link } from "react-router-dom";
 
 const AboutHeader = () => {
@@ -20,7 +20,7 @@ const AboutHeader = () => {
         <div className="absolute top-0 bg-[#FFE9EA] rounded-[100%] p-6"></div>
         <div className="absolute bg-[#977DF4] rounded-[100%] p-2"></div>
         <div className="absolute right-0 top-0 bg-[#977DF4] rounded-[100%] p-2"></div>
-        <img src={about} className="absolute top-0 left-6"></img>
+        {/*       <img src={about} className="absolute top-0 left-6"></img> */}
       </div>
     </div>
   );
