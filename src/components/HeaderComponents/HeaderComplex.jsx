@@ -10,18 +10,18 @@ const HeaderComplex = () => {
   const [loveCount, setLoveCount] = useState(0);
   return (
     <div className="text-babyBlue flex">
-      <div className="flex">
+      <div className="px-[10px] flex">
         <img src={loginIcon} />
-        <span>Login / Register</span>
+        <span className="font-bold px-1">Login / Register</span>
       </div>
-      <img src={searchIcon} />
-      <div className="flex">
+      <img className="px-[10px]" src={searchIcon} />
+      <div className="px-[10px] flex">
         <img src={cartIcon} />
-        {cartItemCount}
+        <span className="font-normal px-1">{cartItemCount}</span>
       </div>
-      <div className="flex">
+      <div className="px-[10px] flex">
         <img src={loveIcon} />
-        {loveCount}
+        <p className="font-normal px-1">{loveCount}</p>
       </div>
     </div>
   );
