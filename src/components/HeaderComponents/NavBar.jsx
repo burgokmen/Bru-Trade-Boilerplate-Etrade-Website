@@ -4,7 +4,7 @@ import dropDownIcon from "../../assets/header-foot-icons/dropDownIcon.svg";
 
 const NavBar = () => {
   return (
-    <nav>
+    <nav className="py-2 text-[14px]">
       <ul className="flex">
         <li className="pr-5">
           <Link to="/"> Home </Link>
