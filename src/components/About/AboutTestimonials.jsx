@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const AboutTestimonials = () => {
   return (
     <div className="bg-[#2A7CC7] h-[637px]">
-      <div className="mobile-col-flex sm:justify-between">
+      <div className="flex sm:justify-between">
         <div className="flex flex-col items-center sm:items-start px-20 sm:px-0 text-center sm:text-start gap-6 sm:w-[500px] py-28 m-auto text-white">
           <h5 className="font-bold text-base">WORK WITH US</h5>
           <h2 className="font-bold text-[40px]">Now Let’s grow Yours</h2>

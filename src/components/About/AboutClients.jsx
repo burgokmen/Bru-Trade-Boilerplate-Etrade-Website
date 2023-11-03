@@ -15,7 +15,7 @@ export default function AboutClients() {
             Trusted By Over 4000 Big Companies
           </h2>
         </div>
-        <div className="mobile-col-flex justify-center items-center py-[50px] sm:gap-[30px] gap-14">
+        <div className="flex justify-center items-center py-[50px] sm:gap-[30px] gap-14">
           <img className="sm:w-[80px] sm:h-[33.81px]" src={brand1}></img>
           <img className="sm:w-[83px] sm:h-[59px]" src={brand2}></img>
           <img className="sm:w-[102px] sm:h-[75px]" src={brand3}></img>
