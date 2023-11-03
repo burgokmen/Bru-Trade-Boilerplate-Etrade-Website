@@ -8,7 +8,7 @@ import data from "../../data/data";
 
 const HeaderTop = () => {
   return (
-    <div className="bg-darkBlue text-white h-[58px] text-[14px]">
+    <div className="bg-darkBlue text-white h-[58px] text-[14px] py-1">
       <div className="px-[1.5rem] flex justify-between">
         <div className="flex ">
           <div className="flex p-[10px]">
