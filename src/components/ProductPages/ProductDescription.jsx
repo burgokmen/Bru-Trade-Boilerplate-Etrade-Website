@@ -1,5 +1,15 @@
 import { useEffect, useState } from "react";
 import { Button, IconButton, Rating } from "@material-tailwind/react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faAngleRight,
+  faCartShopping,
+  faChevronLeft,
+  faChevronRight,
+  faEye,
+  faHeart,
+  faStar,
+} from "@fortawesome/free-solid-svg-icons";
 
 import data from "../../data/data";
 
@@ -65,12 +75,24 @@ const ProductDescription = () => {
 
           <div className="flex gap-4">
             <Button color="blue">Select Options</Button>
-            <IconButton variant="outlined" className="rounded-full">
+            {/*    <IconButton variant="outlined" className="rounded-full">
               <i className="fa fa-heart" />
             </IconButton>
             <IconButton variant="outlined" className="rounded-full">
-              <i className="fa-solid fa-cart-shopping" />
-            </IconButton>
+              <i className="fa-cart-shopping" />
+            </IconButton> */}
+            <FontAwesomeIcon
+              icon={faHeart}
+              className="border border-solid border-neutral rounded-[45px] w-5 h-5 p-3"
+            />
+            <FontAwesomeIcon
+              icon={faCartShopping}
+              className="border border-solid border-neutral rounded-[45px] w-5 h-5 p-3"
+            />
+            <FontAwesomeIcon
+              icon={faEye}
+              className="border border-solid border-neutral rounded-[45px] w-5 h-5 p-3"
+            />
           </div>
         </div>
       </div>

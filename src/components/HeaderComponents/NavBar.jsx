@@ -14,16 +14,11 @@ const NavBar = () => {
           <img className="pl-2" src={dropDownIcon} />
         </li>
         <li className="pr-5">
-          <Link to="/"> About </Link>
+          <Link to="/about"> About </Link>
         </li>
+
         <li className="pr-5">
-          <Link to="/"> Blog </Link>
-        </li>
-        <li className="pr-5">
-          <Link to="/"> Contact </Link>
-        </li>
-        <li>
-          <Link to="/"> Pages </Link>
+          <Link to="/contact"> Contact </Link>
         </li>
       </ul>
     </nav>

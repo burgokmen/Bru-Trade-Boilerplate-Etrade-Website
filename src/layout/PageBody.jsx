@@ -4,6 +4,7 @@ import ProductListPage from "../pages/ProductList";
 import ProductPage from "../pages/ProductPage";
 import PricingPage from "../pages/PricingPage";
 import TestPage from "../pages/TestPage";
+import Contact from "../pages/Contact";
 
 const PageBody = () => {
   return (
@@ -19,6 +20,9 @@ const PageBody = () => {
       </Route>
       <Route path="/pricing" exact>
         <PricingPage />
+      </Route>
+      <Route path="/contact" exact>
+        <Contact />
       </Route>
       <Route path="/test" exact>
         <TestPage />
