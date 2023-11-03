@@ -1,4 +1,4 @@
-import about from "../../Assets/about/technology 1 (1).png";
+import about from "../../Assets/about/technology.png";
 import { Link } from "react-router-dom";
 
 const AboutHeader = () => {
